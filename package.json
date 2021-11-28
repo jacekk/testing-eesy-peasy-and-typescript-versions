@@ -1,0 +1,21 @@
+{
+  "name": "eesy-peasy-and-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JacekK",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rm -f *.js",
+    "start": "tsc && node index.js"
+  },
+  "engines": {
+    "node": "14.x",
+    "yarn": "1.x"
+  },
+  "dependencies": {
+    "easy-peasy": "~5",
+    "react": "^17.0.2",
+    "typescript": "~4.1"
+  }
+}
